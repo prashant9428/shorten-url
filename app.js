@@ -11,7 +11,7 @@ app.use(
   })
 );
 app.use(cors());
-app.use("/short", shortUrl);
+app.use(shortUrl);
 
 const port = process.env.PORT;
 app.listen(port, () => {
