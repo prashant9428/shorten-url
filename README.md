@@ -10,7 +10,7 @@ So this api performs three task.
 The API is hosted in https://small-me.herokuapp.com/
 
 ## POST REQUEST:-
-### URL: https://small-me.herokuapp.com/short/new
+### URL: https://small-me.herokuapp.com/new
 it takes only one input in body called url.  
 example<br/>
 {<br/>
@@ -26,7 +26,7 @@ in response it gives.
 }
 
 ## Get all short url saved in server
-### URL : https://small-me.herokuapp.com/short
+### URL : https://small-me.herokuapp.com/
 Response:-  
   [  
     {  
@@ -40,9 +40,9 @@ Response:-
   ]  
   
   ## Redirect to the orignal url
-  ### URL: https://small-me.herokuapp.com/short/{ short-url }  
+  ### URL: https://small-me.herokuapp.com/{ short-url }  
   Example:  
-  https://small-me.herokuapp.com/short/cY6d80yl9  
+  https://small-me.herokuapp.com/cY6d80yl9  
   
   this will redicet to the gmail. 
   
