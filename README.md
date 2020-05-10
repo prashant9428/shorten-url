@@ -7,10 +7,10 @@ So this api performs three task.
 
 3. Decode the URL and send redirct to the oringal url.
 
-The API is hosted in https://drewdoor-shorten-api.herokuapp.com/
+The API is hosted in https://small-me.herokuapp.com/
 
 ## POST REQUEST:-
-### URL: https://drewdoor-shorten-api.herokuapp.com/short/new
+### URL: https://small-me.herokuapp.com/short/new
 it takes only one input in body called url.  
 example<br/>
 {<br/>
@@ -26,7 +26,7 @@ in response it gives.
 }
 
 ## Get all short url saved in server
-### URL : https://drewdoor-shorten-api.herokuapp.com/short
+### URL : https://small-me.herokuapp.com/short
 Response:-  
   [  
     {  
@@ -40,10 +40,12 @@ Response:-
   ]  
   
   ## Redirect to the orignal url
-  ### URL: https://drewdoor-shorten-api.herokuapp.com/short/{ short-url }  
+  ### URL: https://small-me.herokuapp.com/short/{ short-url }  
   Example:  
-  https://drewdoor-shorten-api.herokuapp.com/short/cY6d80yl9  
+  https://small-me.herokuapp.com/short/cY6d80yl9  
   
-  this will redicet to the gmail.  
+  this will redicet to the gmail. 
+  
+  This might be looking long but when you will have your domain it will look shorter, but the idea behind building the app is same.
   
   
